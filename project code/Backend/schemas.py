@@ -1,0 +1,39 @@
+from pydantic import BaseModel
+class UserRegister(BaseModel):
+    Name: str
+    Email: str
+    Password: str
+    MonthlyIncome: float
+    MonthlyExpenses: float
+class UserLogin(BaseModel):
+    Email: str
+    Password: str
+class FinancialProfileRequest(BaseModel):
+    UserID: int
+class FinancialInput(BaseModel):
+    UserID: int
+    TotalEMI: float
+class LoanCreate(BaseModel):
+    UserID: int
+    LenderName: str
+    LoanType: str
+    OutstandingAmount: float
+    InterestRate: float
+    EMI: float
+    OverdueMonths: int
+class LoanUpdate(BaseModel):
+    LenderName: str
+    LoanType: str
+    OutstandingAmount: float
+    InterestRate: float
+    EMI: float
+    OverdueMonths: int
+class SettlementResponse(BaseModel):
+    LoanID: int
+    SuggestedSettlement: str
+    RiskCategory: str
+    PredictedAmount: float
+class SettlementInput(BaseModel):
+    LoanID: int
+class NegotiationInput(BaseModel):
+    LoanID: int
