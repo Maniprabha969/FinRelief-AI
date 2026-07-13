@@ -1,6 +1,7 @@
 REQUIREMENT ANALYSIS
 
 Customer Journey Map
+
 The customer journey map traces the path a borrower takes while using FinRelief AI, from first discovering the platform to receiving a settlement negotiation letter.
 
 <img width="490" height="380" alt="image" src="https://github.com/user-attachments/assets/4c85c792-a39e-42ce-a622-1b83012abe9a" />
