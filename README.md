@@ -83,3 +83,9 @@ npm run dev
 <img width="820" height="389" alt="Screenshot 2026-07-11 224019" src="https://github.com/user-attachments/assets/7ba19e6e-9def-44eb-b10d-f44f26f9ee83" />
 
 <img width="539" height="318" alt="Screenshot 2026-07-11 224036" src="https://github.com/user-attachments/assets/96b7315e-cc8a-41ba-8e14-2fd283dc68db" />
+
+
+Project Demo video:
+
+https://drive.google.com/file/d/1pZGBPrGA_C1WcX-Dsj3DaMkPxcyW13TT/view?usp=sharing
+
